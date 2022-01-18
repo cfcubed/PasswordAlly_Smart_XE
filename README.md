@@ -1,4 +1,11 @@
-# PasswordPump v2.0
+# PasswordAlly 
+
+This is an attempt to bring a mix of some PasswordPump functionality with other things to SMART Response XE platform.
+
+So something small, cheap, battery powered, with some sort of keyboard and usable as a standalone password store. TBD whether there will be any success here.
+Because of obvious, major hardware diffs and goals this project should likely not be based off PasswordPump repository. Will take care of that if things happen here.
+
+Presently based on PasswordPump with this original description:
 
 This is v2.0 of the PasswordPump, a USB device that manages credentials for up to 250 accounts.  Credentials (account names, usernames, passwords, URLs and old passwords) are stored ONLY on the device itself, on two removable EEprom chips using military grade encryption (AES-256).  The credentials are not stored in the cloud or in a file on your computer where they are more exposed to hackers.  Credentials are backed up on the device itself; i.e. encrypted credentials are moved from the primary EEprom chip to the backup EEprom on demand.  You may remove the EEprom chips from the device (perhaps to keep a third or fourth backup).  Credentials are entered either via the rotary encoder (on the left), via keyboard and serial terminal, or via a Python based graphical user interface (the PasswordPumpGUI).   The device itself is approximately 1 1/8 x 2 3/4 inches, or 29 x 71 millimeters.  Cases are available for printing.  If you design another case for the PasswordPump please share it with us!
 
